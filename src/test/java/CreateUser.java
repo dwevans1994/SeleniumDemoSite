@@ -59,7 +59,7 @@ public class CreateUser {
         l.submitClick();
         assertEquals("**Successful Login**", l.getStatus());
 
-        
+
         TimeUnit.SECONDS.sleep(5);
         webDriver.quit();
 
